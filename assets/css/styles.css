@@ -254,6 +254,9 @@ img {
   row-gap: 2rem;
   text-align: center;
 }
+.about__text{
+  color:black;
+}
 .about__subtitle {
   margin-bottom: var(--mb-2);
 }
@@ -263,6 +266,19 @@ img {
 .about__img img {
   width: 200px;
   border-radius: 0.5rem;
+}
+.about__qualifications {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+.about__qualification-item {
+    padding: 6px 14px;
+    border: 1px solid currentColor;
+    border-radius: 20px;
+    font-size: 0.9rem;
 }
 
 /* ===== SKILLS =====*/
@@ -292,6 +308,11 @@ img {
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
+.skills__tech-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: var(--mb-2);
+}
 .skills__names {
   display: flex;
   align-items: center;
@@ -319,6 +340,9 @@ img {
 }
 .skills__img {
   border-radius: 0.5rem;
+}
+.skills__java{
+  width:70%;
 }
 
 /* ===== WORK =====*/
